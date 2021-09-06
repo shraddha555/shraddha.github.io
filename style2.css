@@ -1,0 +1,77 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Kristi", cursive;
+      }
+
+      html {
+        font-size: 40%;
+      }
+
+      .main_header {
+        width: 100vw;
+        height: 100vh;
+        /* background-color: hsl(0, 0%, 94%); */
+        /* background-color: #061161; */
+
+        background-image: url("media/teacher.jpg");
+        background-position: center;
+        /* position: fixed; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: grid;
+        place-items: center;
+      }
+
+      .center_div {
+        min-width: 50vw;
+        height: 40vh;
+        color: #d2ac47;
+        text-shadow: 0 3px 5px rgba(0,0,0,.2);
+        font-size: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-align: center;
+      }
+      .center_div p{
+        width: 80%;
+        margin-top: 10%;
+        font-size: 70px;
+        font-family: 'Tangerine', cursive;
+      }
+span{
+  color: #c0c0c0;
+  font-weight: bold;
+  font-size: 34px;
+  font-family: 'Rock Salt', cursive;
+}
+ /* @media (max-width: 768px) {
+        html {
+          font-size: 35%;
+        }
+
+      } */
+@media (max-width: 900px){
+
+  .main_header{
+    background-image: url(media/teachermobile.png);
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .center_div p{
+    width: 50%;
+    font-size: 65%;
+    margin-bottom: 25%;
+  }
+  span{
+    color: #c0c0c0;
+    font-weight: bold;
+    font-size: 40%;
+  }
+}
